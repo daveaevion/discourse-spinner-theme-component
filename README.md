@@ -6,8 +6,11 @@ This assumes a light theme with a white background.  If your theme uses another 
 ## CSS Explaination
 
 `#main {background: white;}`
+`.spinner {animation: rotate-forever 1s infinite cubic-bezier(0,0,0,1); border-color: rgba(66, 133, 244, 0.25); border-right-color: transparent;}`
 
 The main container is naturally a higher z-index than the header so this step ensures that once it loads, it will cover up the spinner.
+
+The additional spinner CSS gives the spin a cool speed up slow down animation and is colored blue, but feel free to change the color to fit your theme.
 
 ## Header Explaination
 
