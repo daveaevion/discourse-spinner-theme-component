@@ -1,11 +1,11 @@
 # discourse-spinner-theme-component
 Add a loading spinner to the initial discourse load.
 
-This assumes a light theme with a white background.  If your theme uses another color background, change the CSS file to include a different color.
+This should work with your theme's background color since it uses the "secondary" color variable.
 
 ## CSS Explaination
 
-`#main {background: white;}`
+`#main {background: $secondary;}`
 
 `.spinner {animation: rotate-forever 1s infinite cubic-bezier(0,0,0,1); border-color: rgba(66, 133, 244, 0.25); border-right-color: transparent;}`
 
